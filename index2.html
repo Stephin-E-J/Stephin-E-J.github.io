@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style1.css">
+    <script src="script.js"></script>
     <title>Gaming</title>
 </head>
 <body>
     <header>
-        <h1>GameZ</h1>
+        <a href="index.html"><h1>GameZ</h1></a>
         <nav>
             <ul>
                 <li><a href="index1.html">Home</a></li>
                 <li><a href="index2.html">PC Games</a></li>
-                <li><a href="">Mobile Games</a></li>
-                <li><a href="">PS5 Games</a></li>
+                <li><a href="index3.html">Mobile Games</a></li>
+                <li><a href="index4.html">PS5 Games</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="Main-table">
-    <h2>Top Played Games on PC</h2>
+    <h2>Popular Games on PC</h2>
     <div class="card-container">
         <a href="https://www.counter-strike.net/cs2" target="_blank">
         <div class="card">
@@ -64,6 +64,17 @@
                 <p class="price">Free</p>
             </div>
         </div>
+        </a>
+
+        <a href="https://store.steampowered.com/app/3164500/Schedule_I/" target="_blank">
+            <div class="card">
+                <img src="schedule-i_r3gr.jpg" alt="schedule1">
+                <div class="info">
+                    <p class="title">Schedule I</p>
+                    <p class="publisher">TVGS</p>
+                    <p class="price">$19.99</p>
+                </div>
+            </div>
         </a>
         
         <a href="https://www.roblox.com/" target="_blank">
@@ -110,7 +121,166 @@
             </div>
         </a>
 
+        <a href="https://www.callofduty.com/modernwarfare" target="_blank">
+            <div class="card">
+                <img src="MW_PC.webp" alt="CODMW">
+                <div class="info">
+                    <p class="title">Call of Duty: Modern Warfare</p>
+                    <p class="publisher">Activision</p>
+                    <p class="price">$59.99</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://playvalorant.com/ar-ae/" target="_blank">
+            <div class="card">
+                <img src="Valorant.jpg" alt="valorant">
+                <div class="info">
+                    <p class="title">VALORANT</p>
+                    <p class="publisher">Riot Games</p>
+                    <p class="price">Free</p>
+                </div>
+            </div>
+        </a>
+
     </div>
-    </section>
+
+    <hr><!--hr gives line in between-->
+
+
+    <h3>Recommended Games</h3><!--h3 is heading 3-->
+
+    <div class="image-container">s
+        <div class="slider" id="sliderImage">
+            <a href="https://grayzonewarfare.com/"><img src="Gray Zone.jpg" alt="grayzone"></a>
+            <a href="https://warthunder.com/en"><img src="War-thunder.jpg" alt="warthunder"></a>
+            <a href="https://www.pubg.com/en/main"><img src="pubg-battlegrounds-19vwb.avif" alt="pubg"></a>
+            <a href="https://www.predecessorgame.com/"><img src="Predecessor.jpg" alt="predecessor"></a>
+        </div>
+        <button class="button back" onclick="moveImage(-1)"><</button>
+        <button class="button front" onclick="moveImage(1)">></button>
+    </div>
+
+    <hr>
+
+    <h2>Single-Player Video Games</h2>
+
+    <div>
+        <div class="card-container">
+
+            <a href="https://www.cyberpunk.net/us/en/" target="_blank">
+            <div class="card">
+                <img src="Cyberpunk.webp" alt="cyberpunk">
+                <div class="info">
+                    <p class="title">Cyberpunk</p>
+                    <p class="publisher">CD Projekt</p>
+                    <p class="price">$59.99</p>
+                </div>
+            </div>
+            </a>
+
+            <a href="https://www.thewitcher.com/us/en/witcher3" target="_blank">
+            <div class="card">
+                <img src="Witcher_3_cover_art.jpg" alt="witcher3">
+                <div class="info">
+                    <p class="title">The Witcher 3: Wild Hunt</p>
+                    <p class="publisher">CD Projekt Red</p>
+                    <p class="price">$9.99</p>
+                </div>
+            </div>
+            </a>
+
+            <a href="https://en.bandainamcoent.eu/elden-ring/elden-ring" target="_blank">
+            <div class="card">
+                <img src="Elden.jpeg" alt="elden-ring">
+                <div class="info">
+                    <p class="title">Elden Ring</p>
+                    <p class="publisher">FromSoftware Inc.</p>
+                    <p class="price">$59.99</p>
+                </div>
+            </div>
+            </a>
+
+            <a href="https://www.rockstargames.com/reddeadredemption2" target="_blank">
+            <div class="card">
+                <img src="images.jpeg" alt="reddeadredemption2">
+                <div class="info">
+                    <p class="title">Red Dead Redemption 2</p>
+                    <p class="publisher">Rockstargames</p>
+                    <p class="price">$59.99</p>
+                </div>
+            </div>
+            </a>
+
+            <a href="https://baldursgate3.game/" target="_blank">
+            <div class="card">
+                <img src="Baldur's Gate.jpg" alt="baldursgate3">
+                <div class="info">
+                    <p class="title">Baldur's Gate 3</p>
+                    <p class="publisher">Larian Studios</p>
+                    <p class="price">$59.99</p>
+                </div>
+            </div>
+            </a>
+
+            <a href="https://www.supergiantgames.com/games/hades/" target="_blank">
+                <div class="card">
+                    <img src="Hades_cover_art.jpg" alt="hades">
+                    <div class="info">
+                        <p class="title">Hades</p>
+                        <p class="publisher">Supergiant Games</p>
+                        <p class="price">$24.99</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://ffvii.square-enix-games.com/en-us/games/rebirth" target="_blank">
+                <div class="card">
+                    <img src="Final Fantasy.avif" alt="finalfantasy">
+                    <div class="info">
+                        <p class="title">Final Fantasy VII Rebirth</p>
+                        <p class="publisher">Square Enix</p>
+                        <p class="price">$48.99</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://divinity.game/" target="_blank">
+                <div class="card">
+                    <img src="divinity-original-sin-2.jpg" alt="divinityoriginalsin2">
+                    <div class="info">
+                        <p class="title">Divinity Original Sin 2</p>
+                        <p class="publisher">Larian Studios</p>
+                        <p class="price">$44.99</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.playstation.com/en-ae/games/god-of-war/" target="_blank">
+                <div class="card">
+                    <img src="God-of-War.jpg" alt="god-of-war">
+                    <div class="info">
+                        <p class="title">God of War</p>
+                        <p class="publisher">PlayStation Publishing LLC</p>
+                        <p class="price">$49.99</p>
+                    </div>
+                </div>
+            </a>
+           
+            <a href="https://www.alanwake.com/" target="_blank">
+                <div class="card">
+                    <img src="AlanWake2.jpeg" alt="alanwake">
+                    <div class="info">
+                        <p class="title">Alan Wake 2</p>
+                        <p class="publisher">Epic Games Publishing</p>
+                        <p class="price">$59.99</p>
+                    </div>
+                </div>
+            </a>
+
+            
+
+        </div>
+    </div>
 </body>
 </html>
