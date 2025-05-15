@@ -1,7 +1,7 @@
 header {
-    background-color: rgb(3, 0, 32);
+    background-color: black;
     color: white;
-    width: 100%;
+
     top: 0;
     padding: 10px 0;
 }
@@ -20,6 +20,13 @@ ul li{
 }
 
 ul li a{
+    text-decoration: none;
+    font-weight: bolder;
+    transition: 0.4s ease;
+    padding: 5px 10px;
+}
+
+ul li a{
     text-align: center;
     padding: 8px 16px;
     text-decoration: none;
@@ -31,24 +38,39 @@ li a:hover{
     color: orange;
 }
 
+/*Styling the body*/
 body{
-    background-color: blacks
+    background-image: url(Background-img.webp);/*For background image*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;/*postion of the image*/
 }
 
+/*Spacing between text*/
 font{
     line-height: 5;
 }
 
+/*# is for id */
 #main-page{
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
-    background-color: rgb(3, 0, 32);
     color: white;
     margin-top: 1rem;
-    border-radius: 10px;
-    height: 500px;
 }
 
-button{
-    size: 5px
+/*Styling the button*/
+.button{
+    background-color: black;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+}
+
+/*Styling the text in the button*/
+a{
+    color: white;
+    text-decoration: none;
+     margin: 10px 5px;
 }

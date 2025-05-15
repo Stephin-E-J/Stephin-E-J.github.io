@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style1.css">
-    <title>Document</title>
+    <script src="script.js"></script>
+    <title>GamesZ PS5</title>
 </head>
 <body>
     <header>
@@ -30,6 +31,7 @@
                         <p class="title">Astro Bot</p>
                         <p class="publisher">Sony Interactive Enterainment</p>
                         <p class="price">$59.99</p>
+                        <p class="rating">4.2⭐</p>
                     </div>
                 </div>
             </a>
@@ -41,6 +43,7 @@
                         <p class="title">Spider-Man 2</p>
                         <p class="publisher">PlayStation Publishing LLC</p>
                         <p class="price">$59.99</p>
+                        <p class="rating">4.3⭐</p>
                     </div>
                 </div>
             </a>
@@ -52,6 +55,7 @@
                         <p class="title">Gran Turismo 7</p>
                         <p class="publisher">Sony Interactive Enterainment</p>
                         <p class="price">$69.99</p>
+                        <p class="rating">4.7⭐</p>
                     </div>
                 </div>
             </a>
@@ -63,6 +67,7 @@
                         <p class="title">Metaphor: ReFantazio</p>
                         <p class="publisher">SEGA</p>
                         <p class="price">$69.99</p>
+                        <p class="rating">4.5⭐</p>
                     </div>
                 </div>
             </a>
@@ -74,6 +79,7 @@
                         <p class="title">Monster Hunter Wilds</p>
                         <p class="publisher">CAPCOM Co.,Ltd</p>
                         <p class="price">$89.99</p>
+                        <p class="rating">3.0⭐</p>
                     </div>
                 </div>
             </a>
@@ -85,6 +91,7 @@
                         <p class="title">God-of-War Ragnarök</p>
                         <p class="publisher">PlayStation Publishing LLC</p>
                         <p class="price">$69.99</p>
+                        <p class="rating">4.5⭐</p>
                     </div>
                 </div>
             </a>
@@ -96,6 +103,7 @@
                         <p class="title">Returnal</p>
                         <p class="publisher">PlayStation Publishing LLC</p>
                         <p class="price">$59.99</p>
+                        <p class="rating">4.5⭐</p>
                     </div>
                 </div>
             </a>
@@ -107,33 +115,51 @@
                         <p class="title">Elden Ring Shadows of the Erdtree</p>
                         <p class="publisher">Namco Bandai Games America Inc.</p>
                         <p class="price">$44.99</p>
+                        <p class="rating">3.5⭐</p>
                     </div>
                 </div>
             </a>
 
-            <a href="" target="_blank">
+            <a href="https://www.playstation.com/en-us/games/ghost-of-tsushima/" target="_blank">
                 <div class="card">
-                    <img src="" alt="">
+                    <img src="Ghost of tsushima.jpeg" alt="ghostoftsushima">
                     <div class="info">
                         <p class="title">Ghost of Tsushima</p>
-                        <p class="publisher"></p>
-                        <p class="price"></p>
+                        <p class="publisher">PlayStation Publishing LLC</p>
+                        <p class="price">$69.99</p>
+                        <p class="rating">4.5⭐</p>
                     </div>
                 </div>
             </a>
 
-            <a href="" target="_blank">
+            <a href="https://www.playstation.com/en-ae/games/lego-horizon-adventures/" target="_blank">
                 <div class="card">
-                    <img src="" alt="">
+                    <img src="Lego.jpeg" alt="lego-horizon-adventures">
                     <div class="info">
-                        <p class="title"></p>
-                        <p class="publisher"></p>
-                        <p class="price"></p>
+                        <p class="title">Lego Horizon Adventures</p>
+                        <p class="publisher">PlayStation Publishing LLC</p>
+                        <p class="price">$59.99</p>
+                        <p class="rating">3.0⭐</p>
                     </div>
                 </div>
             </a>
 
 
+    </div>
+
+    <br>
+
+    <h2>Coming Soon</h2>
+
+    <div class="image-container">
+        <div class="slider" id="sliderImage">
+            <a href="https://www.rockstargames.com/VI"><img src="https://cdn.mos.cms.futurecdn.net/3D9dh6TgNMUXwC7kYD5rP.jpg" alt="gta6"></a>
+            <a href="https://www.playstation.com/en-ae/games/ghost-of-yotei/"><img src="https://i.ytimg.com/vi/GC_fXqYXGxM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB_JF_f384M5PZErugus_FMzZ2tnw" alt="ghost-of-yōtei"></a>
+            <a href="https://www.kojimaproductions.jp/en/death-stranding-2"><img src="https://i.ytimg.com/vi/6cs-A1rNvEE/maxresdefault.jpg" alt="Death Stranding 2"></a>
+        </div>
+        <!--button tag is for moving the images front and back-->
+        <button class="button back" onclick="moveImage(-1)"><</button>
+        <button class="button front" onclick="moveImage(1)">></button>
     </div>
 
 </body>

@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style1.css">
-    <title>Document</title>
+    <script src="script.js"></script>
+    <title>GamesZ Mobile</title>
 
 </head>
 <body>
@@ -21,29 +22,275 @@
         </nav>
     </header>
 
+    <br><!--Line break-->
+
+    <h2>Coming Soon</h2>
     <div class="image-container">
         <div class="slider" id="sliderImage">
-            <a href=""><img src="" alt=""></a>
-            <a href=""><img src="" alt=""></a>
-            <a href=""><img src="" alt=""></a>
+            <a href="https://www.ubisoft.com/en-gb/game/the-division/resurgence"><img src="https://9to5google.com/wp-content/uploads/sites/4/2022/07/the-division-resurgence.jpg?quality=82&strip=all" alt="divisionresurgence"></a>
+            <a href="https://www.ubisoft.com/en-gb/game/rainbow-six/mobile"><img src="https://gametree.me/wp-content/uploads/2024/10/rainbow-six-mobile-1024x512.webp" alt="rainbow-six"></a>
+            <a href="https://www.warframe.com/landing"><img src="https://www-static.digitalextremes.com/images/uploads/newscontent/1664563326.png" alt="warframe"></a>
+            <a href="https://coa.nvsgames.com/"><img src="https://static1.anpoimages.com/wordpress/wp-content/uploads/2024/01/crystal-of-atlan-hero.jpg" alt="crystalofatlan"></a>            
         </div>
+        <button class="button back" onclick="moveImage(-1)"><</button>
+        <button class="button front" onclick="moveImage(1)">></button>
     </div>
+
+    <hr>
+    <br>
 
     <h2>Popular Mobile Games</h2>
 
     <div class="card-container">
 
-        <a href="" target="_blank">
+        <a href="https://play.google.com/store/apps/details?id=com.innersloth.spacemafia&hl=en&pli=1" target="_blank">
+            <div class="card">
+                <img src="https://img.utdstc.com/icon/58d/ad7/58dad7ac070993e99d4c9f495898e5459c7aca5e133a1ff630468f1275f0d6fc:200" alt="amongus">
+                <div class="info">
+                    <p class="title">Among Us</p>
+                    <p class="publisher">Innersloth</p>
+                    <p class="price">Free</p>
+                    <p class="rating">4.0⭐</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://hsr.hoyoverse.com/en-us/" target="_blank">
                 <div class="card">
-                    <img src="" alt="">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMkOYB37AosY2u4Lm8-xe8Cs69IqVAoBs72Yr91K6xdrN7h5Bg7sYCsiB9ZCBMapEzpvjZ" alt="honkai">
                     <div class="info">
-                        <p class="title"></p>
-                        <p class="publisher"></p>
-                        <p class="price"></p>
+                        <p class="title">Honkai: Star Rail</p>
+                        <p class="publisher">Cognosphere PTE. LTD.</p>
+                        <p class="price">Free</p>
+                        <p class="rating">4.2⭐</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.callofduty.com/mobile" target="_blank">
+                <div class="card">
+                    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTD0k16djF-C4IQuVAFp_ZDuC8PbFae91puJCHQ3yJDFJ6rVh3rummg0VhGbZyKeUsric13yA" alt="cod">
+                    <div class="info">
+                        <p class="title">Call of Duty: Mobile</p>
+                        <p class="publisher">Activision Publishing, Inc.</p>
+                        <p class="price">Free</p>
+                        <p class="rating">4.3⭐</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://pokemongo.com/en-US" target="_blank">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxVrs5vAgnAAx6AHrZVsAg0wyvPp3Dwu-y_IInohhA90MngEcdUhlf2JnTDQn--SOt3MdgYA" alt="pokemongo">
+                    <div class="info">
+                        <p class="title">Pokémon GO</p>
+                        <p class="publisher">Niantic, Inc.</p>
+                        <p class="price">Free</p>
+                        <p class="rating">4.0⭐</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://block-blast.io/" target="_blank">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZJ1SBRAStTkezKVtUfIfeX2SU5P8SPAYy_Q&s" alt="block-blast">
+                    <div class="info">
+                        <p class="title">Block Blast</p>
+                        <p class="publisher">Hungry Studio</p>
+                        <p class="price">Free</p>
+                        <p class="rating">4.8⭐</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://play.google.com/store/apps/details?id=com.kiloo.subwaysurf&hl=en" target="_blank">
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Subway_Surfers.jpg/250px-Subway_Surfers.jpg" alt="subwaysurf">
+                    <div class="info">
+                        <p class="title">Subway Surfers</p>
+                        <p class="publisher">SYBO Games</p>
+                        <p class="price">Free</p>
+                        <p class="rating">4.6⭐</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.pubgmobile.com/ar/home.shtml" target="_blank">
+                <div class="card">
+                    <img src="https://play-lh.googleusercontent.com/zCSGnBtZk0Lmp1BAbyaZfLktDzHmC6oke67qzz3G1lBegAF2asyt5KzXOJ2PVdHDYkU=w240-h480-rw" alt="pubg">
+                    <div class="info">
+                        <p class="title">PUBG Mobile</p>
+                        <p class="publisher">Level Infinite</p>
+                        <p class="price">Free</p>
+                        <p class="rating">4.4⭐</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://wildrift.leagueoflegends.com/ar-ae/" target="_blank">
+                <div class="card">
+                    <img src="https://assets-prd.ignimgs.com/2022/06/14/lol-wild-rift-button-2-1655174382426.jpg" alt="lolwr">
+                    <div class="info">
+                        <p class="title">League of Legends: Wild Rift</p>
+                        <p class="publisher">Riot Games, Inc</p>
+                        <p class="price">Free</p>
+                        <p class="rating">3.3⭐</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://zenless.hoyoverse.com/en-us/" target="_blank">
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Zenless_Zone_Zero_curved_box_logo.svg/1200px-Zenless_Zone_Zero_curved_box_logo.svg.png" alt="ZZZ">
+                    <div class="info">
+                        <p class="title">Zenless Zone Zero</p>
+                        <p class="publisher">Cognosphere PTE. LTD.</p>
+                        <p class="price">Free</p>
+                        <p class="rating">4.0⭐</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://supercell.com/en/games/brawlstars/" target="_blank">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToDlytiE178sfY8uXNj7aIesE2rM7gGOwjFCmb9VVEWJ7JAoUDaNYQZxuRG5iFNXAxvJRJAA" alt="brawlstars">
+                    <div class="info">
+                        <p class="title">Brawl Stars</p>
+                        <p class="publisher">Supercell</p>
+                        <p class="price">Free</p>
+                        <p class="rating">4.4⭐</p>
                     </div>
                 </div>
             </a>
     </div>
+
+    <br>
+
+    <h2>Recommended Games</h2>
+
+    <div class="card-container">
+        <a href="https://play.google.com/store/apps/details?id=com.blackpanther.ninjaarashi2&hl=en">
+            <div class="card">
+                <img src="https://play-lh.googleusercontent.com/fxioXJMCX_Um9MO48JRPfcKZF1o-uVl8EkwVixdwQSaVOEsLu8PjcNTlyzva-pEG4h_Q" alt="ninjaarashi">
+                <div class="info">
+                    <p class="title">Ninja Arashi 2</p>
+                    <p class="publisher">Black Panther</p>
+                    <p class="price">Free</p>
+                    <p class="rating">4.7⭐</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://play.google.com/store/apps/details?id=com.nekki.shadowfight.shades&hl=en">
+            <div class="card">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co873n.jpg" alt="shades">
+                <div class="info">
+                    <p class="title">Shades: Shadow Fight Roguelike</p>
+                    <p class="publisher">NEKKI</p>
+                    <p class="price">Free</p>
+                    <p class="rating">4.6⭐</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://play.google.com/store/apps/details?id=com.rusya.cartycoon&hl=en">
+            <div class="card">
+                <img src="https://play-lh.googleusercontent.com/vYhNzwneNAyEPDRLyWH0yh2iFs63jbKObf9qQpK84h5bzmGhcg1GuXsYdh4kOusXBEU" alt="carcompany">
+                <div class="info">
+                    <p class="title">Car Company Tycoon</p>
+                    <p class="publisher">RUSYA</p>
+                    <p class="price">Free</p>
+                    <p class="rating">4.4⭐</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://www.ndemiccreations.com/en/22-plague-inc">
+            <div class="card">
+                <img src="https://play-lh.googleusercontent.com/AhhhI8JGijtKuO8xOP_qUzOvIk7R7xBIKALKW_P7DV7jzWtvo2LrfC0081XMc85NGeBK" alt="plague">
+                <div class="info">
+                    <p class="title">Plague Inc.</p>
+                    <p class="publisher">Ndemic Creations</p>
+                    <p class="price">Free</p>
+                    <p class="rating">4.7⭐</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://www.ea.com/games/real-racing/real-racing-3">
+            <div class="card">
+                <img src="https://play-lh.googleusercontent.com/6NN6ysU7n7MSkOapMOKcimKg4xJJRp41hQmwiehnTpBNBlHNY-YMIq81la3hZ-k-fC8" alt="real-racing">
+                <div class="info">
+                    <p class="title">Real Racing 3</p>
+                    <p class="publisher">Electronic Arts</p>
+                    <p class="price">Free</p>
+                    <p class="rating">4.6⭐</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://play.google.com/store/apps/details?id=com.dreamotion.ronin&hl=en">
+            <div class="card">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4ejo.jpg" alt="ronin">
+                <div class="info">
+                    <p class="title">Ronin: The Last Samurai</p>
+                    <p class="publisher">Dreamotion Inc.</p>
+                    <p class="price">Free</p>
+                    <p class="rating">4.5⭐</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://play.google.com/store/apps/details?id=com.techyonic.textbasedrpg&hl=en">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXO94QlrTnpWYP8gb2ze6snufpDlPZMCE0LA&s" alt="elmwoodtrail">
+                <div class="info">
+                    <p class="title">An Elmwood Trail- Crime Story</p>
+                    <p class="publisher">Techyonic</p>
+                    <p class="price">Free</p>
+                    <p class="rating">4.8⭐</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://polyfield.net/">
+            <div class="card">
+                <img src="https://play-lh.googleusercontent.com/ciblv6tOSwvD76a0sWmTrLz4oWHbM3qSis0LtoRFNdl91xKV3yGttmfOYUzD7HfOuylw" alt="polyfield">
+                <div class="info">
+                    <p class="title">Polyfield</p>
+                    <p class="publisher">Mohammad Alizadeh</p>
+                    <p class="price">Free</p>
+                    <p class="rating">4.7⭐</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://celltosingularity.com/">
+            <div class="card">
+                <img src="https://play-lh.googleusercontent.com/HnBcScP7HfrkIfZWBkDnEJQLlXZf_aFS38V1-5NJazOvbekCUg1BgASRvwUlsQbrnl0" alt="celltosingularity">
+                <div class="info">
+                    <p class="title">Cell to Singularity: Evolution</p>
+                    <p class="publisher">ComputerLunch</p>
+                    <p class="price">Free</p>
+                    <p class="rating">4.7⭐</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://play.google.com/store/apps/details?id=com.blyts.nobodies&hl=en">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrbeeWsgN2NaDm6eCebEPh3rBCGMWSJSripw&s" alt="nobodies">
+                <div class="info">
+                    <p class="title">Nobodies: Murder Cleaner</p>
+                    <p class="publisher">Blyts</p>
+                    <p class="price">Free</p>
+                    <p class="rating">4.7⭐</p>
+                </div>
+            </div>
+        </a>
+
+    </div>
+
 
 </body>
 </html>
